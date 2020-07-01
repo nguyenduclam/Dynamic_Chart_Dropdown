@@ -1,0 +1,987 @@
+{
+	"type": "FeatureCollection",
+	"features": [
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "1",
+				"code": "KK21",
+				"name": "Trạm KK21",
+				"organizationName": null,
+				"categoryID": "1",
+				"categoryName": "Tự động",
+				"basinName": null,
+				"enterpriseName": "Trường Cao đẳng Y tế Đồng Tháp",
+				"districtID": "871",
+				"districtName": "Huyện Tam Nông",
+				"locationID": "20",
+				"locationName": "KDC thị trấn Tràm Chim",
+				"locationTypeID": "7",
+				"locationTypeName": "Khu dân cư",
+				"establishyear": null,
+				"terminatedate": null,
+				"maintenance": "",
+				"active": "Y",
+				"obstype_namelist": "Không khí; Nước mặt; Nước thải",
+				"total_detail": [
+					{
+						"time": "08:45:10, 06/07/2020",
+						"data": [
+							{
+								"687": {
+									"v": 9.4,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"61": {
+									"v": 5.8,
+									"inlimit": "N"
+								}
+							},
+							{
+								"355": {
+									"v": 11.1,
+									"inlimit": "N"
+								}
+							},
+							{
+								"492": {
+									"v": 2.06,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"628": {
+									"v": 3.5,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"674": {
+									"v": 13.5,
+									"inlimit": "N"
+								}
+							}
+						]
+					},
+					{
+						"time": "11:20:40, 18/07/2020",
+						"data": [
+							{
+								"687": {
+									"v": 2.23,
+									"inlimit": "N"
+								}
+							},
+							{
+								"61": {
+									"v": 7.08,
+									"inlimit": "N"
+								}
+							},
+							{
+								"355": {
+									"v": 29.02,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"492": {
+									"v": 22.99,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"628": {
+									"v": 0.02,
+									"inlimit": "N"
+								}
+							},
+							{
+								"674": {
+									"v": 19.5,
+									"inlimit": "Y"
+								}
+							}
+						]
+					},
+					{
+						"time": "12:00:00, 30/06/2020",
+						"data": [
+							{
+								"687": {
+									"v": 10,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"61": {
+									"v": 5.8,
+									"inlimit": "N"
+								}
+							},
+							{
+								"355": {
+									"v": 10.1,
+									"inlimit": "N"
+								}
+							},
+							{
+								"492": {
+									"v": 2.06,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"628": {
+									"v": 3.5,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"674": {
+									"v": 12.5,
+									"inlimit": "N"
+								}
+							}
+						]
+					},
+					{
+						"time": "12:10:00, 30/06/2020",
+						"data": [
+							{
+								"687": {
+									"v": 2.23,
+									"inlimit": "N"
+								}
+							},
+							{
+								"61": {
+									"v": 7.08,
+									"inlimit": "N"
+								}
+							},
+							{
+								"355": {
+									"v": 29.05,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"492": {
+									"v": 22.99,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"628": {
+									"v": 0.02,
+									"inlimit": "N"
+								}
+							},
+							{
+								"674": {
+									"v": 12.5,
+									"inlimit": "Y"
+								}
+							}
+						]
+					},
+					{
+						"time": "12:20:20, 14/07/2020",
+						"data": [
+							{
+								"687": {
+									"v": 2.23,
+									"inlimit": "N"
+								}
+							},
+							{
+								"61": {
+									"v": 7.08,
+									"inlimit": "N"
+								}
+							},
+							{
+								"355": {
+									"v": 24.05,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"492": {
+									"v": 22.99,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"628": {
+									"v": 0.02,
+									"inlimit": "N"
+								}
+							},
+							{
+								"674": {
+									"v": 12.2,
+									"inlimit": "Y"
+								}
+							}
+						]
+					},
+					{
+						"time": "13:00:00, 01/07/2020",
+						"data": [
+							{
+								"687": {
+									"v": 15,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"61": {
+									"v": 5.8,
+									"inlimit": "N"
+								}
+							},
+							{
+								"355": {
+									"v": 10.1,
+									"inlimit": "N"
+								}
+							},
+							{
+								"492": {
+									"v": 2.16,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"628": {
+									"v": 3.5,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"674": {
+									"v": 12.5,
+									"inlimit": "N"
+								}
+							}
+						]
+					},
+					{
+						"time": "16:20:40, 12/07/2020",
+						"data": [
+							{
+								"687": {
+									"v": 10,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"61": {
+									"v": 5.8,
+									"inlimit": "N"
+								}
+							},
+							{
+								"355": {
+									"v": 10.1,
+									"inlimit": "N"
+								}
+							},
+							{
+								"492": {
+									"v": 2.06,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"628": {
+									"v": 3.6,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"674": {
+									"v": 11.5,
+									"inlimit": "N"
+								}
+							}
+						]
+					},
+					{
+						"time": "17:10:30, 22/07/2020",
+						"data": [
+							{
+								"687": {
+									"v": 2.23,
+									"inlimit": "N"
+								}
+							},
+							{
+								"61": {
+									"v": 7.18,
+									"inlimit": "N"
+								}
+							},
+							{
+								"355": {
+									"v": 29.15,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"492": {
+									"v": 22.99,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"628": {
+									"v": 0.02,
+									"inlimit": "N"
+								}
+							},
+							{
+								"674": {
+									"v": 12.5,
+									"inlimit": "Y"
+								}
+							}
+						]
+					}
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					106.471928,
+					9.791629
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "2",
+				"code": "KK22",
+				"name": "Trạm KK22",
+				"organizationName": null,
+				"categoryID": "1",
+				"categoryName": "Tự động",
+				"basinName": null,
+				"enterpriseName": "Ban quản lý khu kinh tế Đồng Tháp",
+				"districtID": "877",
+				"districtName": "Huyện Châu Thành",
+				"locationID": "21",
+				"locationName": "Chợ Cái Tàu Hạ",
+				"locationTypeID": "5",
+				"locationTypeName": "Chợ",
+				"establishyear": null,
+				"terminatedate": null,
+				"maintenance": "",
+				"active": "Y",
+				"obstype_namelist": "Nước mặt; Nước ngầm",
+				"total_detail": [
+					{
+						"time": "02:20:00, 30/06/2020",
+						"data": [
+							{
+								"728": {
+									"v": 2,
+									"inlimit": "N"
+								}
+							},
+							{
+								"716": {
+									"v": 10,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"484": {
+									"v": 5.6,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"225": {
+									"v": 10.1,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"234": {
+									"v": 7,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"226": {
+									"v": 5.1,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"151": {
+									"v": 10.2,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"159": {
+									"v": 12,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"121": {
+									"v": 5,
+									"inlimit": "N"
+								}
+							},
+							{
+								"128": {
+									"v": 15,
+									"inlimit": "Y"
+								}
+							}
+						]
+					},
+					{
+						"time": "11:50:00, 30/06/2020",
+						"data": [
+							{
+								"728": {
+									"v": 6.9,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"716": {
+									"v": 1.2,
+									"inlimit": "N"
+								}
+							},
+							{
+								"484": {
+									"v": 5.6,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"225": {
+									"v": 10.1,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"234": {
+									"v": 6.8,
+									"inlimit": "N"
+								}
+							},
+							{
+								"226": {
+									"v": 5.1,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"151": {
+									"v": 10.2,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"159": {
+									"v": 6.2,
+									"inlimit": "N"
+								}
+							},
+							{
+								"121": {
+									"v": 6.8,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"128": {
+									"v": 5.9,
+									"inlimit": "N"
+								}
+							}
+						]
+					},
+					{
+						"time": "11:55:00, 29/06/2020",
+						"data": [
+							{
+								"728": {
+									"v": 5,
+									"inlimit": "N"
+								}
+							},
+							{
+								"716": {
+									"v": 10.6,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"484": {
+									"v": 8.4,
+									"inlimit": "N"
+								}
+							},
+							{
+								"225": {
+									"v": 4.5,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"234": {
+									"v": 10.8,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"226": {
+									"v": 4.2,
+									"inlimit": "N"
+								}
+							},
+							{
+								"151": {
+									"v": 3.1,
+									"inlimit": "N"
+								}
+							},
+							{
+								"159": {
+									"v": 10.5,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"121": {
+									"v": 5.6,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"128": {
+									"v": 14,
+									"inlimit": "Y"
+								}
+							}
+						]
+					}
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					106.373051,
+					9.630549
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "3",
+				"code": "KK26",
+				"name": "Trạm KK26",
+				"organizationName": null,
+				"categoryID": "2",
+				"categoryName": "Bán tự động",
+				"basinName": null,
+				"enterpriseName": "Hoạt động của các phòng khám đa khoa; chuyên khoa và nha khoa",
+				"districtID": "875",
+				"districtName": "Huyện Lấp Vò",
+				"locationID": "25",
+				"locationName": "CCN Vàm Cống",
+				"locationTypeID": "3",
+				"locationTypeName": "Cụm công nghiệp",
+				"establishyear": null,
+				"terminatedate": null,
+				"maintenance": "",
+				"active": "Y",
+				"obstype_namelist": "Không khí; Nước thải công nghiệp, làng nghề",
+				"total_detail": [
+					{
+						"time": "09:45:00, 19/06/2019",
+						"data": [
+							{
+								"728": {
+									"v": 6.9,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"716": {
+									"v": 1.2,
+									"inlimit": "N"
+								}
+							},
+							{
+								"484": {
+									"v": 5.6,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"225": {
+									"v": 10.1,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"234": {
+									"v": 6.8,
+									"inlimit": "N"
+								}
+							},
+							{
+								"226": {
+									"v": 5.1,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"151": {
+									"v": 10.2,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"159": {
+									"v": 6.2,
+									"inlimit": "N"
+								}
+							},
+							{
+								"121": {
+									"v": 6.8,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"128": {
+									"v": 5.9,
+									"inlimit": "N"
+								}
+							}
+						]
+					},
+					{
+						"time": "10:45:00, 25/06/2019",
+						"data": [
+							{
+								"728": {
+									"v": 10,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"716": {
+									"v": 5.8,
+									"inlimit": "N"
+								}
+							},
+							{
+								"484": {
+									"v": 10.1,
+									"inlimit": "N"
+								}
+							},
+							{
+								"225": {
+									"v": 2.06,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"234": {
+									"v": 3.5,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"226": {
+									"v": 5.8,
+									"inlimit": "N"
+								}
+							},
+							{
+								"151": {
+									"v": 10.1,
+									"inlimit": "N"
+								}
+							},
+							{
+								"159": {
+									"v": 2.06,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"121": {
+									"v": 3.5,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"128": {
+									"v": 12.5,
+									"inlimit": "N"
+								}
+							}
+						]
+					}
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					106.298894,
+					9.795688
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "4",
+				"code": "KK29",
+				"name": "Trạm KK29",
+				"organizationName": null,
+				"categoryID": "2",
+				"categoryName": "Bán tự động",
+				"basinName": null,
+				"enterpriseName": "Bệnh viện Quân dân Y Đồng Tháp",
+				"districtID": "876",
+				"districtName": "Huyện Lai Vung",
+				"locationID": "201",
+				"locationName": "KCN Sông Hậu",
+				"locationTypeID": "1",
+				"locationTypeName": "Khu vực hành chính",
+				"establishyear": null,
+				"terminatedate": null,
+				"maintenance": "",
+				"active": "Y",
+				"obstype_namelist": "Không khí; Nước mặt; Nước ngầm; Nước thải sinh hoạt",
+				"total_detail": [
+					{
+						"time": "08:05:00, 03/04/2019",
+						"data": [
+							{
+								"265": {
+									"v": 2.23,
+									"inlimit": "N"
+								}
+							},
+							{
+								"167": {
+									"v": 7.08,
+									"inlimit": "N"
+								}
+							},
+							{
+								"62": {
+									"v": 29.05,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"434": {
+									"v": 22.99,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"676": {
+									"v": 0.02,
+									"inlimit": "N"
+								}
+							},
+							{
+								"10": {
+									"v": 12.5,
+									"inlimit": "Y"
+								}
+							}
+						]
+					},
+					{
+						"time": "13:25:00, 20/06/2015",
+						"data": [
+							{
+								"265": {
+									"v": 3.4,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"167": {
+									"v": 20.5,
+									"inlimit": "N"
+								}
+							},
+							{
+								"62": {
+									"v": 7.02,
+									"inlimit": "N"
+								}
+							},
+							{
+								"434": {
+									"v": 0,
+									"inlimit": "N"
+								}
+							},
+							{
+								"676": {
+									"v": 0.5,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"10": {
+									"v": 6,
+									"inlimit": "N"
+								}
+							}
+						]
+					}
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					106.124486,
+					9.85658
+				]
+			}
+		},
+		{
+			"type": "Feature",
+			"properties": {
+				"id": "5",
+				"code": "KK31",
+				"name": "Trạm KK31",
+				"organizationName": null,
+				"categoryID": "3",
+				"categoryName": "Doanh nghiệp",
+				"basinName": null,
+				"enterpriseName": "UBND huyện Cao Lãnh",
+				"districtID": "867",
+				"districtName": "Thành phố Sa Đéc",
+				"locationID": "27",
+				"locationName": "Làng nghề làm bột chăn nuôi heo xã Tân Phú Đông",
+				"locationTypeID": "8",
+				"locationTypeName": "Làng nghề",
+				"establishyear": null,
+				"terminatedate": null,
+				"maintenance": "",
+				"active": "Y",
+				"obstype_namelist": "Đất; Khí thải khu công nghiệp, cụm công nghiệp; Nước mặt",
+				"total_detail": [
+					{
+						"time": "02:00:00, 30/06/2020",
+						"data": [
+							{
+								"265": {
+									"v": 6,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"167": {
+									"v": 10,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"62": {
+									"v": 10.01,
+									"inlimit": "N"
+								}
+							},
+							{
+								"434": {
+									"v": 10.19,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"676": {
+									"v": 5.6,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"10": {
+									"v": 1.25,
+									"inlimit": "N"
+								}
+							}
+						]
+					},
+					{
+						"time": "15:12:00, 29/06/2020",
+						"data": [
+							{
+								"265": {
+									"v": 2.23,
+									"inlimit": "N"
+								}
+							},
+							{
+								"167": {
+									"v": 7.08,
+									"inlimit": "N"
+								}
+							},
+							{
+								"62": {
+									"v": 29.05,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"434": {
+									"v": 22.99,
+									"inlimit": "Y"
+								}
+							},
+							{
+								"676": {
+									"v": 0.02,
+									"inlimit": "N"
+								}
+							},
+							{
+								"10": {
+									"v": 12.5,
+									"inlimit": "Y"
+								}
+							}
+						]
+					}
+				]
+			},
+			"geometry": {
+				"type": "Point",
+				"coordinates": [
+					106.219243,
+					9.935046
+				]
+			}
+		}
+	]
+}

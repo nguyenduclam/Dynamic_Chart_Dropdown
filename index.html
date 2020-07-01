@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Chart Dropdown</title>
+
+    <link href="icon/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!-- Dropdown option for Chart -->
+    <select id="filter_parameters">
+        <!-- DOM from JSON -->
+    </select>
+
+    <select id="filter_time">
+        <option id="filter_1h_chart">1 giờ</option>
+        <option id="filter_8h_chart">8 giờ</option>
+        <option id="filter_24h_chart">24 giờ</option>
+    </select>
+
+    <select id="filter_typechart">
+        <option value="filter_line_chart">Biểu đồ đường</option>
+        <option value="filter_column_chart">Biểu đồ cột</option>
+    </select>
+
+    <!-- Show Chart -->
+    <div id="chartdiv"></div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js_chart/core.js"></script>
+    <script src="js_chart/charts.js"></script>
+    <!-- <script src="js_chart/lang/vi_VN.js"></script> -->
+    <script src="js_chart/themes/animated.js"></script>
+
+    <!-- Main JS -->
+    <script src="js/process_data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
