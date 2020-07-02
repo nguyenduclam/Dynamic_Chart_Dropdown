@@ -24,8 +24,9 @@ $.ajax({
     }
 });
 
-/*** Change format detail that 'time' and 'object' param same position ***/
+/*** Change  detail that 'time' and 'object' param same position ***/
 var features_data = total_obs_station.features;
+var max_time;
 var total_detail;
 var data;
 var new_data = [];
@@ -72,10 +73,11 @@ for (var i = 0; i < features_data.length; i++) {
                 }
             }
         }
-        sortResults(total_detail, 'time_js', true)
+        sortResults(total_detail, 'time_js', true);
     }
 }
 
+/*** Hàm sort json theo object ***/
 function sortResults(data, prop, asc) {
     data.sort(function (a, b) {
         if (asc) {
@@ -87,5 +89,52 @@ function sortResults(data, prop, asc) {
     return data;
 }
 
-// console.log(total_obs_station.features[0].properties.total_detail)
-console.log(total_obs_station)
+/* console.log(total_obs_station.features[0].properties.total_detail) */
+var length =total_obs_station.features[0].properties.total_detail.length;
+max_time = total_obs_station.features[0].properties.total_detail[length - 1].time;
+const max_time_js = total_obs_station.features[0].properties.total_detail[length - 1].time_js;
+
+var max_time_js_minus;
+
+function GettedDate(time_data) {
+    var month = time_data.getMonth() + 1;
+    var day = time_data.getDate();
+    var year = time_data.getFullYear();
+    var hour = time_data.getHours();
+    var minute = time_data.getMinutes();
+    var second = time_data.getSeconds();
+
+    if (hour < 10) {
+        hour = "0" + hour.toString();
+    }
+
+    if (minute < 10) {
+        minute = "0" + minute.toString();
+    }
+
+    if (second < 10) {
+        second = "0" + second.toString();
+    }
+
+    if (day < 10) {
+        day = "0" + day.toString();
+    }
+
+    if (month < 10) {
+        month = "0" + month.toString();
+    }
+
+    return hour + ":" + minute + ":" + second + ", " + day + "/" + month + "/" + year;
+}
+
+console.log(max_time_js);
+console.log(total_obs_station.features[0].properties.total_detail[length - 1])
+
+
+console.log(new Date(max_time_js.setHours(max_time_js.getHours() - 24)))
+
+console.log(total_obs_station.features[0].properties.total_detail[length - 1])
+
+/* console.log((new Date(max_time_js_8.setHours(max_time_js_8.getHours() - 8))))
+console.log((new Date(max_time_js_24.setHours(max_time_js_24.getHours() - 24))))
+console.log(total_obs_station) */
