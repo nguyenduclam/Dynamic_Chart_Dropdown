@@ -24,9 +24,7 @@ $.ajax({
     }
 });
 
-/* console.log(total_std_param);
-console.log(total_obs_station); */
-
+/*** Change format detail that 'time' and 'object' param same position ***/
 var features_data = total_obs_station.features;
 var total_detail;
 var data;
@@ -38,6 +36,19 @@ for (var i = 0; i < features_data.length; i++) {
 
         for (var j = 0; j < total_detail.length; j++) {
             data = total_detail[j].data;
+
+            var detail_daytime = total_detail[j].time.split(", ");
+            var detail_day = detail_daytime[1];
+            var detail_time = detail_daytime[0];
+
+            /*** Chuyển detail time sang time mặc định trong JS ***/
+            var string_day = detail_day.split("/");
+
+            /*** Gộp thành chuỗi rồi chuyển sang dạng thời gian mặc định ***/
+            var data_day_time = new Date(string_day[2] + "/" + string_day[1] + "/" + string_day[0]
+                + " " + detail_time);
+
+            total_detail[j]['time_js'] = data_day_time;
 
             for (var k = data.length - 1; k >= 0; k--) {
                 var spidID = Object.keys(data[k]);
@@ -61,7 +72,20 @@ for (var i = 0; i < features_data.length; i++) {
                 }
             }
         }
+        sortResults(total_detail, 'time_js', true)
     }
 }
 
-console.log(total_obs_station.features[0].properties.total_detail[0])
+function sortResults(data, prop, asc) {
+    data.sort(function (a, b) {
+        if (asc) {
+            return (a[prop] > b[prop]) ? 1 : ((a[prop] < b[prop]) ? -1 : 0);
+        } else {
+            return (b[prop] > a[prop]) ? 1 : ((b[prop] < a[prop]) ? -1 : 0);
+        }
+    });
+    return data;
+}
+
+// console.log(total_obs_station.features[0].properties.total_detail)
+console.log(total_obs_station)

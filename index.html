@@ -14,18 +14,20 @@
     </select>
 
     <select id="filter_time">
-        <option id="filter_1h_chart">1 giờ</option>
-        <option id="filter_8h_chart">8 giờ</option>
-        <option id="filter_24h_chart">24 giờ</option>
+        <option value="filter_1h_chart">1 giờ</option>
+        <option value="filter_8h_chart">8 giờ</option>
+        <option value="filter_24h_chart">24 giờ</option>
     </select>
 
     <select id="filter_typechart">
-        <option value="filter_line_chart">Biểu đồ đường</option>
         <option value="filter_column_chart">Biểu đồ cột</option>
+        <option value="filter_line_chart">Biểu đồ đường</option>
     </select>
 
     <!-- Show Chart -->
-    <div id="chartdiv"></div>
+    <div id="chartdiv">
+        <b style="color: #ff2437">Vui lòng chọn thông số hiển thị</b>
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js_chart/core.js"></script>
