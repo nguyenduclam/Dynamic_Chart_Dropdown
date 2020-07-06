@@ -9,7 +9,7 @@ $.ajax({
     url: "data/call_standard_param.json",
     async: false,
     dataType: 'json',
-    success: function (data) {
+    success: function(data) {
         total_std_param = data;
     }
 });
@@ -19,7 +19,7 @@ $.ajax({
     url: "data/call_obs_station.json",
     async: false,
     dataType: 'json',
-    success: function (data) {
+    success: function(data) {
         total_obs_station = data;
     }
 });
@@ -46,8 +46,8 @@ for (var i = 0; i < features_data.length; i++) {
             var string_day = detail_day.split("/");
 
             /*** Gộp thành chuỗi rồi chuyển sang dạng thời gian mặc định ***/
-            var data_day_time = new Date(string_day[2] + "/" + string_day[1] + "/" + string_day[0]
-                + " " + detail_time);
+            var data_day_time = new Date(string_day[2] + "/" + string_day[1] + "/" + string_day[0] +
+                " " + detail_time);
 
             total_detail[j]['time_js'] = data_day_time;
 
@@ -79,7 +79,7 @@ for (var i = 0; i < features_data.length; i++) {
 
 /*** Hàm sort json theo object ***/
 function sortResults(data, prop, asc) {
-    data.sort(function (a, b) {
+    data.sort(function(a, b) {
         if (asc) {
             return (a[prop] > b[prop]) ? 1 : ((a[prop] < b[prop]) ? -1 : 0);
         } else {
@@ -89,10 +89,10 @@ function sortResults(data, prop, asc) {
     return data;
 }
 
-/* console.log(total_obs_station.features[0].properties.total_detail) */
-var length =total_obs_station.features[0].properties.total_detail.length;
+console.log(total_obs_station.features[0].properties.total_detail)
+/*** var length = total_obs_station.features[0].properties.total_detail.length;
 max_time = total_obs_station.features[0].properties.total_detail[length - 1].time;
-const max_time_js = total_obs_station.features[0].properties.total_detail[length - 1].time_js;
+var max_time_js = total_obs_station.features[0].properties.total_detail[length - 1].time_js; ***/
 
 var max_time_js_minus;
 
@@ -127,13 +127,13 @@ function GettedDate(time_data) {
     return hour + ":" + minute + ":" + second + ", " + day + "/" + month + "/" + year;
 }
 
-console.log(max_time_js);
+/* console.log(max_time_js);
 console.log(total_obs_station.features[0].properties.total_detail[length - 1])
 
 
 console.log(new Date(max_time_js.setHours(max_time_js.getHours() - 24)))
 
-console.log(total_obs_station.features[0].properties.total_detail[length - 1])
+console.log(total_obs_station.features[0].properties.total_detail[length - 1]) */
 
 /* console.log((new Date(max_time_js_8.setHours(max_time_js_8.getHours() - 8))))
 console.log((new Date(max_time_js_24.setHours(max_time_js_24.getHours() - 24))))
